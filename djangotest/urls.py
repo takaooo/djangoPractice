@@ -7,4 +7,9 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^polls/', include('polls.urls')),
+
 )
+
+
+#useful link for url regex - http://www.webforefront.com/django/regexpdjangourls.html
